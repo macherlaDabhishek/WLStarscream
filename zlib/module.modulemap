@@ -1,0 +1,9 @@
+module WLCZLib [system] {
+    header "include.h"
+    link "z"
+    export *
+}
+module WLCommonCrypto [system] {
+    header "include.h"
+    export *
+}
